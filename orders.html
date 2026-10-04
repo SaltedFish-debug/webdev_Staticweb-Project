@@ -114,7 +114,28 @@
                     <i class="bi bi-info-circle-fill"></i>Visual demonstration only: this static form does not save data.
                 </div>
 
-                <div class="order-form-panel"></div>
+                <div class="order-form-panel">
+                    <form>
+                        <div class="mb-3">
+                            <label for="custName" class="form-label">Customer Name</label>
+                            <input type="text" class="form-control" id="custName" placeholder="e.g. Juan Dela Cruz">
+                        </div>
+                        <div class="mb-3">
+                            <label for="custContact" class="form-label">Customer Name</label>
+
+                            <input type="text" class="form-control" id="custContact" placeholder="e.g. 0917 000 0000">
+                        </div>
+                        <div class="mb-3">
+                            <label for="products" class="order-form-panel" >Product</label>
+                            <select class="form-select" id="productType">
+                                <option>T-Shirt Printing</option>
+                                <option>Lanyard Printing</option>
+                                <option>ID Production</option>
+
+                            </select>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
