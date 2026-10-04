@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
@@ -26,7 +28,8 @@
                     <li class="nav-items"><a class="nav-link" href="products.html">Products</a></li>
                     <li class="nav-items"><a class="nav-link" href="payments.html">Payments</a></li>
                     <li class="nav-items"><a class="nav-link" href="desgins.html">Designs</a></li>
-                    <li class="nav-items"><a class="nav-link active" href="process.html" aria-current="page">Process &amp; Rules</a></li>
+                    <li class="nav-items"><a class="nav-link active" href="process.html" aria-current="page">Process
+                            &amp; Rules</a></li>
                 </ul>
             </div>
         </nav>
@@ -39,8 +42,103 @@
                     <h2><i class="bi bi-diagram-3"></i> Order Process</h2>
                     <p>The documented flow every order follows, from first contact to handover.</p>
                 </div>
+
+
+
+                <div class="workflow-steps">
+                    <div class="workflow-step">
+                        <span class="step-number">1</span>
+                        <i class="bi bi-inbox"></i>
+                        <h3>Receive Order</h3>
+                        <p>Customer provides name, contact number, email, Messenger, quantity, layout, and date needed.
+                        </p>
+                    </div>
+                    <span class="workflow-arrow"><i class="bi bi-arrow-right"></i></span>
+                    <div class="workflow-step">
+                        <span class="step-number">2</span>
+                        <i class="bi bi-journal-plus"></i>
+                        <h3>Record Order</h3>
+                        <p>Staff logs the order into the system instead of a manual Excel file.</p>
+                    </div>
+                    <span class="workflow-arrow"><i class="bi bi-arrow-right"></i></span>
+                    <div class="workflow-step">
+                        <span class="step-number">3</span>
+                        <i class="bi bi-cash-stack"></i>
+                        <h3>Down Payment &amp; Agreement</h3>
+                        <p>New customers pay 50% down (based on quantity) and sign the agreement. Non-refundable once
+                            made.</p>
+                    </div>
+                    <span class="workflow-arrow"><i class="bi bi-arrow-right"></i></span>
+                    <div class="workflow-step">
+                        <span class="step-number">4</span>
+                        <i class="bi bi-palette2"></i>
+                        <h3>Design Approval</h3>
+                        <p>Customer approves the final layout. No approval, no production.</p>
+                    </div>
+                    <span class="workflow-arrow"><i class="bi bi-arrow-right"></i></span>
+                    <div class="workflow-step">
+                        <span class="step-number">5</span>
+                        <i class="bi bi-gear-wide-connected"></i>
+                        <h3>Production</h3>
+                        <p>Items are printed or produced according to the approved design.</p>
+                    </div>
+                    <span class="workflow-arrow"><i class="bi bi-arrow-right"></i></span>
+                    <div class="workflow-step">
+                        <span class="step-number">6</span>
+                        <i class="bi bi-check2-circle"></i>
+                        <h3>Complete &amp; Notify</h3>
+                        <p>Order is complete when the client receives the items with a signed receipt.</p>
+                    </div>
+                </div>
             </div>
         </section>
+
+
+        <section class="page-section" id="rules">
+            <div class="container">
+                <div class="section-heading">
+                    <h2><i class="bi bi-journal-check"></i> Business Rules</h2>
+                    <p>The rules the system must always reflect.</p>
+                </div>
+
+                <div class="rules-grid">
+                    <div class="rule-card">
+                        <h3><i class="bi bi-cash-coin"></i>Down Payment</h3>
+                        <ul class="list-group list-group-flush rule-list">
+                            <li class="list-group-item">New customers pay a <strong>50% down payment</strong> based on order quantity.</li>
+                            <li class="list-group-item">A signed agreement is required together with the down payment.</li>
+                            <li class="list-group-item">Once paid and agreed upon, the down payment is <strong>not refundable</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="rules-grid">
+                    <div class="rule-card">
+                        <h3><i class="bi bi-palette2"></i>Design &amp; Production</h3>
+                        <ul class="list-group list-group-flush rule-list">
+                            <li class="list-group-item">Design changes are allowed at least <strong>2 days before production</strong>, or while there is no final agreement.</li>
+                            <li class="list-group-item">If the design is <strong>not approved, production will not proceed</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="rules-grid">
+                    <div class="rule-card">
+                        <h3><i class="bi bi-clipboard-check"></i>Order Information &amp; Completion</h3>
+                        <ul class="list-group list-group-flush rule-list">
+                            <li class="list-group-item">Customers provide: name, contact number, email, Messenger, number of orders, design/layout, and date needed.</li>
+                            <li class="list-group-item">An order is <strong>completed</strong> when the client receives the items with a receipt containing the client's signature.</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
     </main>
 
     <footer class="site-footer">
@@ -50,4 +148,5 @@
         </div>
     </footer>
 </body>
+
 </html>
