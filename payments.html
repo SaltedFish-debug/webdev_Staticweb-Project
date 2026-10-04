@@ -33,11 +33,87 @@
     </header>
 
     <main id="main">
-        <section class="page-section">
+        <section class="page-section" id="payments">
             <div class="container">
-
+                <div class="section-heading">
+                    <h2><i class="bi bi-credit-card-2-front"></i> Payments</h2>
+                    <p>Down payments and balances for each order. New customers pay a 50% down payment upon agreement.</p>
+                </div>
             </div>
         </section>
+
+        <div class="table-responsive table-shell" >
+            <table class="table dark-table align-middle stack-table">
+                <thead>
+                    <tr>
+                        <th>Payment ID</th>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Amount</th>
+                        <th>Payment Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Payment ID" class="mono">PAY-001</td>
+                        <td data-label="Order ID" class="mono">ORD-001</td>
+                        <td data-label="Customer">Maria Santos</td>
+                        <td data-label="Amount">&#8369;4,500.00</td>
+                        <td data-label="Payment Date">Sep 03</td>
+                        <td data-label="Status"><span class="status-pill st-paid">Paid</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Payment ID" class="mono">PAY-002</td>
+                        <td data-label="Order ID" class="mono">ORD-002</td>
+                        <td data-label="Customer">John Rey Dela Cruz</td>
+                        <td data-label="Amount">&#8369;3,750.00</td>
+                        <td data-label="Payment Date">Sep 06</td>
+                        <td data-label="Status"><span class="status-pill st-paid">Paid</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Payment ID" class="mono">PAY-003</td>
+                        <td data-label="Order ID" class="mono">ORD-003</td>
+                        <td data-label="Customer">Angela Villanueva</td>
+                        <td data-label="Amount">&#8369;2,000.00</td>
+                        <td data-label="Payment Date">Sep 11</td>
+                        <td data-label="Status"><span class="status-pill st-paid">Partially Paid</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Payment ID" class="mono">PAY-004</td>
+                        <td data-label="Order ID" class="mono">ORD-004</td>
+                        <td data-label="Customer">Mark Anthony Reyes</td>
+                        <td data-label="Amount">&#8369;3,750.00</td>
+                        <td data-label="Payment Date">Sep 15</td>
+                        <td data-label="Status"><span class="status-pill st-partial">Partially Paid</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Payment ID" class="mono">PAY-005</td>
+                        <td data-label="Order ID" class="mono">ORD-005</td>
+                        <td data-label="Customer">Katrina Lim</td>
+                        <td data-label="Amount">—</td>
+                        <td data-label="Payment Date">—</td>
+                        <td data-label="Status"><span class="status-pill st-unpaid">Unpaid</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Payment ID" class="mono">PAY-006</td>
+                        <td data-label="Order ID" class="mono">ORD-006</td>
+                        <td data-label="Customer">Paolo Gutierrez</td>
+                        <td data-label="Amount">—</td>
+                        <td data-label="Payment Date">—</td>
+                        <td data-label="Status"><span class="status-pill st-unpaid">Unpaid</span></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Payment ID" class="mono">PAY-007</td>
+                        <td data-label="Order ID" class="mono">ORD-007</td>
+                        <td data-label="Customer">Rica Fernandez</td>
+                        <td data-label="Amount">&#8369;3,125.00</td>
+                        <td data-label="Payment Date">Sep 25</td>
+                        <td data-label="Status"><span class="status-pill st-paid">Paid</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <footer class="site-footer">
