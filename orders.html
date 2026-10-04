@@ -131,10 +131,23 @@
                                 <option>T-Shirt Printing</option>
                                 <option>Lanyard Printing</option>
                                 <option>ID Production</option>
-
                             </select>
                         </div>
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                                <label for="orderQty" class="form-label">Quantity</label>
+                                <input type="number" class="form-control" id="orderQty" min="1" placeholder="1">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <label for="dateNeeded" class="form-label">Date Needed</label>
+                                <input type="date" class="form-control" id="dateNeeded">
+                            </div>
+                        </div>
+                        <p class="form-note"><i class="bi bi-info-cricle"></i>Static demo only &mdash; in the full system this would save to a database.</p>
                     </form>
+
+                    <a class="btn btn-outline-soft mt-2" href="#main">Back to top</a>
+                    <button type="button" class="btn btn-accent mt-2" disabled>Save Order (not available)</button>
                 </div>
             </div>
         </section>
