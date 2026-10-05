@@ -343,8 +343,7 @@ main { flex: 1 0 auto; }
   padding: 1.5rem;
 }
 .order-form-panel .form-label { color: var(--text); }
-.order-form-panel .form-control,
-.order-form-panel .form-select {
+.order-form-panel .form-control,.order-form-panel .form-select {
   background-color: var(--bg-surface-2);
   border-color: var(--border);
   color: var(--text);
@@ -384,7 +383,7 @@ main { flex: 1 0 auto; }
 @media (max-width: 767px) {
   .brand-text small { display: none; }
   .hero-actions .btn, .section-heading .btn { width: 100%; padding: 0.7rem; }
-  .section-heading.with-action { flex-direction: column; align-items: stretch; }
+.section-heading.with-action { flex-direction: column; align-items: stretch; }
 
   /* Tables turn into cards: no sideways scrolling */
   .table-shell { border: 0; background: none; overflow: visible; }
@@ -418,3 +417,46 @@ main { flex: 1 0 auto; }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
 }
+
+
+/* login page */
+.login-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 2rem;
+  }
+
+.login-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+.login-brand .brand-mark { width: 52px; height: 52px; font-size: 1.5rem; }
+.login-brand h1 { font-size: 1.4rem; margin-bottom: 0; }
+.login-brand p { margin-bottom: 0; }
+
+.login-card .form-label { color: var(--text); }
+.login-card .form-control {
+  background-color: var(--bg-surface-2);
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.login-card .form-control:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 0.2rem rgba(56, 189, 248, 0.25);
+}
+.login-card .form-control::placeholder { color: var(--text-muted); }
+.login-note { font-size: 0.85rem; text-align: center; margin: 1rem 0 0; }
