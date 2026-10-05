@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
     <header>
         <nav class="navbar site-navbar sticky-top">
             <div class="container">
@@ -17,10 +20,11 @@
                     <span class="brand-mark"><i class="bi bi-printer-fill"></i></span>
                     <span class="brand-text">Giftrodawn <small>Ordering Management System</small></span>
                 </a>
-                    
+
 
                 <ul class="navbar-nav flex-row flex-wrap">
-                    <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Dashboard</a> </li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Dashboard</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="orders.html">Orders</a></li>
                     <li class="nav-item"><a class="nav-link" href="customers.html">Customers</a></li>
                     <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
@@ -33,15 +37,17 @@
     </header>
 
 
-    
+
     <section class="hero" id="top">
         <div class="container">
             <div class="hero-inner">
                 <div class="hero-text">
-                    <p class="eyebrow">MSME &middot; Deca Homes Langon Vista</p>
+                    <p class="eyebrow">Deca Homes Langon Vista</p>
                     <h1 id="main-title">Custom printing orders, <span class="accent">organized.</span></h1>
-                    <p class="hero-sub">Giftrodawn provides lanyard printing, T-shirt printing, and ID production. This system replaces manual Excel tracking so the owner and staff can record, update, retrieve, and monitor every customer order in one place.</p>
-                    
+                    <p class="hero-sub">Giftrodawn provides lanyard printing, T-shirt printing, and ID production. This
+                        system replaces manual Excel tracking so the owner and staff can record, update, retrieve, and
+                        monitor every customer order in one place.</p>
+
                     <div class="hero-actions">
                         <a href="orders.html" class="btn btn-accent">View Orders</a>
                         <a href="process.html" class="btn btn-outline-soft">See the Process</a>
@@ -50,10 +56,18 @@
                 <aside class="hero-panel">
                     <h2 class="panel-title">About the Business</h2>
                     <ul class="fact-list">
-                        <li><i class="bi bi-shop"></i><div><strong>Giftrodawn</strong><span>Micro, Small &amp; Medium Enterprise</span></div></li>
-                        <li><i class="bi bi-geo-alt"></i><div><strong>Deca Homes Langon Vista</strong><span>Business location</span></div></li>
-                        <li><i class="bi bi-people"></i><div><strong>Owner &amp; Staff</strong><span>Target users of the system</span></div></li>
-                        <li><i class="bi bi-exclaimation-circle"></i><div><strong>Manual Excel records</strong><span>The problem this system solves</span></div></li>
+                        <li><i class="bi bi-shop"></i>
+                            <div><strong>Giftrodawn</strong><span>Micro, Small &amp; Medium Enterprise</span></div>
+                        </li>
+                        <li><i class="bi bi-geo-alt"></i>
+                            <div><strong>Deca Homes Langon Vista</strong><span>Business location</span></div>
+                        </li>
+                        <li><i class="bi bi-people"></i>
+                            <div><strong>Owner &amp; Staff</strong><span>Target users of the system</span></div>
+                        </li>
+                        <li><i class="bi bi-exclaimation-circle"></i>
+                            <div><strong>Manual Excel records</strong><span>The problem this system solves</span></div>
+                        </li>
 
                     </ul>
                 </aside>
@@ -62,9 +76,10 @@
     </section>
 
 
-    
+
     <main id="main">
 
+        <!-- dashboard -->
         <section class="page-section" id="dashboard">
             <div class="container">
                 <div class="section-heading">
@@ -72,43 +87,89 @@
                     <p>A quick visual summary of the shop's orders.</p>
                 </div>
 
-                <div class="alert alert-sample" role="alert">
-                    <i class="bi bi-info-circle-fill"></i>
-                    All records on this website are <strong>demonstration sample data only</strong> &mdash; not real customer information.
-                </div>
 
-
-        
                 <div class="stat-grid">
                     <article class="stat-card">
                         <span class="stat-icon tone-blue"><i class="bi bi-clipboard2-data"></i></span>
-                        <div><strong class="stat-number">24</strong><span class="stat-label">Total Orders</span></div>
+                        <div><strong class="stat-number">7</strong><span class="stat-label">Total Orders</span></div>
                     </article>
                     <article class="stat-card">
                         <span class="stat-icon tone-gray"><i class="bi bi-hourglass-split"></i></span>
-                        <div><strong class="stat-number">5</strong><span class="stat-label">Pending</span></div>
+                        <div><strong class="stat-number">2</strong><span class="stat-label">Pending</span></div>
                     </article>
                     <article class="stat-card">
                         <span class="stat-icon tone-amber"><i class="bi bi-gear-wide-connected"></i></span>
-                        <div><strong class="stat-number">7</strong><span class="stat-label">Processing</span></div>
+                        <div><strong class="stat-number">3</strong><span class="stat-label">Processing</span></div>
                     </article>
                     <article class="stat-card">
                         <span class="stat-icon tone-green"><i class="bi bi-check2-circle"></i></span>
-                        <div><strong class="stat-number">12</strong><span class="stat-label">Completed</span></div>
+                        <div><strong class="stat-number">2</strong><span class="stat-label">Completed</span></div>
                     </article>
                     <article class="stat-card">
                         <span class="stat-icon tone-green"><i class="bi bi-cash-coin"></i></span>
-                        <div><strong class="stat-number">15</strong><span class="stat-label">Fully Paid</span></div>
+                        <div><strong class="stat-number">3</strong><span class="stat-label">Fully Paid</span></div>
                     </article>
                     <article class="stat-card">
                         <span class="stat-icon tone-red"><i class="bi bi-wallet2"></i></span>
-                        <div><strong class="stat-number">9</strong><span class="stat-label">Unpaid/Partial</span></div>
+                        <div><strong class="stat-number">4</strong><span class="stat-label">Unpaid/Partial</span></div>
                     </article>
                     <article class="stat-card">
                         <span class="stat-icon tone-purple"><i class="bi bi-palette2"></i></span>
-                        <div><strong class="stat-number">4</strong><span class="stat-label">Design Awaiting Approval</span></div>
+                        <div><strong class="stat-number">2</strong><span class="stat-label">Design Awaiting
+                                Approval</span></div>
+                    </article>
+                    <article class="stat-card">
+                        <span class="stat-icon tone-red"><i class="bi bi-x-circle"></i></span>
+                        <div><strong class="stat-number">1</strong><span class="stat-label">Design Not Approved</span>
+                        </div>
                     </article>
                 </div>
+
+                <div class="recent-orders">
+                    <h2>Recent Orders</h2>
+                    <div class="table-responsive table-shell">
+
+                        <table class="table table-striped table-hover data-table align-middle stack-table">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Customer</th>
+                                    <th>Product</th>
+                                    <th>Order Date</th>
+                                    <th>Order Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-label="Order ID" class="mono">ORD-007</td>
+                                    <td data-label="Customer">Rica Fernandez</td>
+                                    <td data-label="Product">T-Shirt Printing</td>
+                                    <td data-label="Order Date">Sep 24</td>
+                                    <td data-label="Order Status"><span class="status-pill st-progress">Processing</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td data-label="Order ID" class="mono">ORD-006</td>
+                                    <td data-label="Customer">Paolo Gutierrez</td>
+                                    <td data-label="Product">ID Production</td>
+                                    <td data-label="Order Date">Sep 21</td>
+                                    <td data-label="Order Status"><span class="status-pill st-pending">Pending</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Order ID" class="mono">ORD-005</td>
+                                    <td data-label="Customer">Katrina Lim</td>
+                                    <td data-label="Product">Lanyard Printing</td>
+                                    <td data-label="Order Date">Sep 18</td>
+                                    <td data-label="Order Status"><span class="status-pill st-pending">Pending</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <a class="btn btn-outline-soft" href="orders.html"View all orders></a>
+                </div>
+
             </div>
         </section>
     </main>
@@ -116,8 +177,9 @@
     <footer class="site-footer">
         <div class="container footer-inner">
             <p><i class="bi bi-printer-fill"></i> <strong>Giftrodawn</strong> Ordering Management System</p>
-            <p class="footer-note"></p>
+            <p class="footer-note">&copy; 2026 Giftrodawn. All rights reserved.</p>
         </div>
     </footer>
 </body>
+
 </html>
