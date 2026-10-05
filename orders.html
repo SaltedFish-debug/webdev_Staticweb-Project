@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+
+
+
+
 
     <header>
         <nav class="navbar site-navbar sticky-top">
@@ -32,99 +35,148 @@
         </nav>
     </header>
 
-    <main id="main">
 
+
+
+
+
+    <main id="main">
         <section class="page-section" id="orders">
             <div class="container">
                 <div class="section-heading with-action">
                     <div>
-                        <h2><i class="bi bi-receipt"></i>Orders</h2>
+                        <h1><i class="bi bi-receipt"></i> Orders</h1>
                         <p>Every customer order with its status, payment, and design approval.</p>
                     </div>
                     <a class="btn btn-accent" href="#record-order-form"><i class="bi bi-plus-lg"></i> Record Order</a>
                 </div>
                 <div class="table-responsive table-shell">
-                    <table class="table dark-table align-middle stack-table">
+                    
+                    
+                    <table class="table table-striped table-hover data-table align-middle stack-table">
+                         
                         <thead>
                             <tr>
                                 <th>Order ID</th><th>Customer</th><th>Product</th><th>Qty</th><th>Size</th>
                                 <th>Order Date</th> <th>Date Needed</th> <th>Order Status</th> <th>Payment</th><th>Design</th>
                             </tr>
                         </thead>
+
+
+
                         <tbody>
                             <tr>
-                                <td data-label="Order ID" class="mono">ORD-001</td><td data-label="Customer">Maria Santos</td><td data-label="Product">T-Shirt Printing</td><td data-label="Qty">30</td><td data-label="Size">Assorted S&ndash;XL</td>
-                                <td data-label="Order Date">Sep 02</td><td data-label="Date Needed">Sep 20</td>
+                                <td data-label="Order ID" class="mono">ORD-001</td>
+                                <td data-label="Customer">Maria Santos</td>
+                                <td data-label="Product">T-Shirt Printing</td>
+                                <td data-label="Qty">30</td>
+                                <td data-label="Size">Assorted S&ndash;XL</td>
+                                <td data-label="Order Date">Sep 02</td>
+                                <td data-label="Date Needed">Sep 20</td>
                                 <td data-label="Order Status"><span class="status-pill st-done">Completed</span></td>
                                 <td data-label="Payment"><span class="status-pill st-paid">Paid</span></td>
                                 <td data-label="Design"><span class="status-pill st-approved">Approved</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Order ID" class="mono">ORD-002</td><td data-label="Customer">John Rey Dela Cruz</td><td data-label="Product">Lanyard Printing</td><td data-label="Qty">150</td><td data-label="Size">1 inch</td>
-                                <td data-label="Order Date">Sep 05</td><td data-label="Date Needed">Sep 25</td>
+                                <td data-label="Order ID" class="mono">ORD-002</td>
+                                <td data-label="Customer">John Rey Dela Cruz</td>
+                                <td data-label="Product">Lanyard Printing</td>
+                                <td data-label="Qty">150</td>
+                                <td data-label="Size">1 inch</td>
+                                <td data-label="Order Date">Sep 05</td>
+                                <td data-label="Date Needed">Sep 25</td>
                                 <td data-label="Order Status"><span class="status-pill st-done">Completed</span></td>
                                 <td data-label="Payment"><span class="status-pill st-paid">Paid</span></td>
                                 <td data-label="Design"><span class="status-pill st-approved">Approved</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Order ID" class="mono">ORD-003</td><td data-label="Customer">Angela Villanueva</td><td data-label="Product">ID Production</td><td data-label="Qty">80</td><td data-label="Size">Standard</td>
-                                <td data-label="Order Date">Sep 10</td><td data-label="Date Needed">Oct 01</td>
+                                <td data-label="Order ID" class="mono">ORD-003</td>
+                                <td data-label="Customer">Angela Villanueva</td>
+                                <td data-label="Product">ID Production</td>
+                                <td data-label="Qty">80</td>
+                                <td data-label="Size">Standard</td>
+                                <td data-label="Order Date">Sep 10</td>
+                                <td data-label="Date Needed">Oct 01</td>
                                 <td data-label="Order Status"><span class="status-pill st-progress">Processing</span></td>
                                 <td data-label="Payment"><span class="status-pill st-partial">Partially Paid</span></td>
                                 <td data-label="Design"><span class="status-pill st-approved">Approved</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Order ID" class="mono">ORD-004</td><td data-label="Customer">Mark Anthony Reyes</td><td data-label="Product">T-Shirt Printing</td><td data-label="Qty">50</td><td data-label="Size">Assorted M&ndash;2XL</td>
-                                <td data-label="Order Date">Sep 14</td><td data-label="Date Needed">Oct 05</td>
+                                <td data-label="Order ID" class="mono">ORD-004</td>
+                                <td data-label="Customer">Mark Anthony Reyes</td>
+                                <td data-label="Product">T-Shirt Printing</td>
+                                <td data-label="Qty">50</td>
+                                <td data-label="Size">Assorted M&ndash;2XL</td>
+                                <td data-label="Order Date">Sep 14</td>
+                                <td data-label="Date Needed">Oct 05</td>
                                 <td data-label="Order Status"><span class="status-pill st-progress">Processing</span></td>
                                 <td data-label="Payment"><span class="status-pill st-partial">Partially Paid</span></td>
-                                <td data-label="Design"><span class="status-pill st-pending">Pending</span></td>
+                                <td data-label="Design"><span class="status-pill st-pending">Pending Approval</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Order ID" class="mono">ORD-005</td><td data-label="Customer">Katrina Lim</td><td data-label="Product">Lanyard Printing</td><td data-label="Qty">200</td><td data-label="Size">0.75 inch</td>
-                                <td data-label="Order Date">Sep 18</td><td data-label="Date Needed">Oct 08</td>
+                                <td data-label="Order ID" class="mono">ORD-005</td>
+                                <td data-label="Customer">Katrina Lim</td>
+                                <td data-label="Product">Lanyard Printing</td>
+                                <td data-label="Qty">200</td>
+                                <td data-label="Size">0.75 inch</td>
+                                <td data-label="Order Date">Sep 18</td>
+                                <td data-label="Date Needed">Oct 08</td>
                                 <td data-label="Order Status"><span class="status-pill st-pending">Pending</span></td>
                                 <td data-label="Payment"><span class="status-pill st-unpaid">Unpaid</span></td>
-                                <td data-label="Design"><span class="status-pill st-pending">Pending</span></td>
+                                <td data-label="Design"><span class="status-pill st-pending">Pending Approval</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Order ID" class="mono">ORD-006</td><td data-label="Customer">Paolo Gutierrez</td><td data-label="Product">ID Production</td><td data-label="Qty">120</td><td data-label="Size">Standard</td>
-                                <td data-label="Order Date">Sep 21</td><td data-label="Date Needed">Oct 10</td>
+                                <td data-label="Order ID" class="mono">ORD-006</td>
+                                <td data-label="Customer">Paolo Gutierrez</td>
+                                <td data-label="Product">ID Production</td>
+                                <td data-label="Qty">120</td>
+                                <td data-label="Size">Standard</td>
+                                <td data-label="Order Date">Sep 21</td>
+                                <td data-label="Date Needed">Oct 10</td>
                                 <td data-label="Order Status"><span class="status-pill st-pending">Pending</span></td>
                                 <td data-label="Payment"><span class="status-pill st-unpaid">Unpaid</span></td>
                                 <td data-label="Design"><span class="status-pill st-rejected">Not Approved</span></td>
                             </tr>
                             <tr>
-                                <td data-label="Order ID" class="mono">ORD-007</td><td data-label="Customer">Rica Fernandez</td><td data-label="Product">T-Shirt Printing</td><td data-label="Qty">25</td><td data-label="Size">Assorted S&ndash;L</td>
-                                <td data-label="Order Date">Sep 24</td><td data-label="Date Needed">Oct 12</td>
+                                <td data-label="Order ID" class="mono">ORD-007</td>
+                                <td data-label="Customer">Rica Fernandez</td>
+                                <td data-label="Product">T-Shirt Printing</td>
+                                <td data-label="Qty">25</td>
+                                <td data-label="Size">Assorted S&ndash;L</td>
+                                <td data-label="Order Date">Sep 24</td>
+                                <td data-label="Date Needed">Oct 12</td>
                                 <td data-label="Order Status"><span class="status-pill st-progress">Processing</span></td>
                                 <td data-label="Payment"><span class="status-pill st-paid">Paid</span></td>
                                 <td data-label="Design"><span class="status-pill st-approved">Approved</span></td>
                             </tr>
                         </tbody>
+
                     </table>
                 </div>
             </div>
         </section>
+
+        
         <section class="page-section" id="record-order-form">
             <div class="container">
-                <div class="section-heading"><h2>Record New Order</h2></div>
-
-                <div class="alert alert-sample">
-                    <i class="bi bi-info-circle-fill"></i>Visual demonstration only: this static form does not save data.
+                <div class="section-heading">
+                    <h2><i class="bi bi-plus-circle"></i> Record New Order</h2>
+                    <p>Enter the customer's details and what they need.</p>
                 </div>
 
                 <div class="order-form-panel">
-                    <form>
+                    <form action="orders.html">
+                        
                         <div class="mb-3">
                             <label for="custName" class="form-label">Customer Name</label>
-                            <input type="text" class="form-control" id="custName" placeholder="e.g. Juan Dela Cruz">
+                            <input type="text" class="form-control" id="custName" placeholder="e.g. Juan Dela Cruz" autocomplete="name" required>
                         </div>
+
                         <div class="mb-3">
                             <label for="custContact" class="form-label">Customer Name</label>
-
-                            <input type="text" class="form-control" id="custContact" placeholder="e.g. 0917 000 0000">
+                            <input type="text" class="form-control" id="custContact" placeholder="e.g. 0917 000 0000" autocomplete="tel" required>
                         </div>
+
                         <div class="mb-3">
                             <label for="productType" class="form-label" >Product</label>
                             <select class="form-select" id="productType">
@@ -133,21 +185,25 @@
                                 <option>ID Production</option>
                             </select>
                         </div>
+
                         <div class="row">
                             <div class="col-6 mb-3">
                                 <label for="orderQty" class="form-label">Quantity</label>
-                                <input type="number" class="form-control" id="orderQty" min="1" placeholder="1">
+                                <input type="number" class="form-control" id="orderQty" min="1" placeholder="1" required>
                             </div>
+
+                            
                             <div class="col-6 mb-3">
                                 <label for="dateNeeded" class="form-label">Date Needed</label>
-                                <input type="date" class="form-control" id="dateNeeded">
+                                <input type="date" class="form-control" id="dateNeeded" required>
                             </div>
                         </div>
-                        <p class="form-note"><i class="bi bi-info-circle"></i>Static demo only &mdash; in the full system this would save to a database.</p>
-                    </form>
 
-                    <a class="btn btn-outline-soft mt-2" href="#main">Back to top</a>
-                    <button type="button" class="btn btn-accent mt-2" disabled>Save Order (not available)</button>
+                        <div class="d-flex flex-wrap gap-2">
+                            <button type="submit" class="btn btn-accent">Record Order</button>
+                            <button type="reset" class="btn btn-outline-soft">Clear Form</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
