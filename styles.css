@@ -415,8 +415,6 @@ main { flex: 1 0 auto; }
   .stat-card { flex-basis: 100%; max-width: none; }
   .step-number { left: 20px; transform: none; }
 }
-
-/* Respect people who turned animations off on their device */
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
 }
